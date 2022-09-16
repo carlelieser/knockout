@@ -4,6 +4,8 @@
 
 export as namespace ko;
 
+export const mapping: any;
+
 //#region subscribables/subscribable.js
 
 export type SubscriptionCallback<T = any, TTarget = void> = (this: TTarget, val: T) => void;
